@@ -7,7 +7,11 @@
     background-color: lightsalmon;
     position: relative;
     top: 70px;
+    scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
+    &::-webkit-scrollbar {
+      display: none;
+    }
 
     > * {
       width: 100vw;
